@@ -1,0 +1,46 @@
+page-home {
+
+}
+
+.style-principal{
+    display: flex;
+    flex-direction: column;
+    
+}
+.boton-buscar{
+    border:1px solid red;
+    font-size: 12pt;
+    transition: all .3s ease-in-out;
+    margin-top:15%;
+
+}
+.boton-buscar:hover{    
+    background-color: #FFFF;
+    color:red;
+}
+.button-md-dark:hover{
+    background-color: #FFFF;
+
+}
+
+.style-imagen{
+    width: 64%;
+    height: 29%;
+    margin: auto;
+    display: block;
+    margin-top: 20vh;
+    box-shadow: 0px 0px 15px crimson;
+    border-radius: 5%;
+}
+
+@media (max-width:375px){
+    .style-imagen{
+        height: 25%;
+    }
+}
+
+@media (max-width:320px){
+    .style-imagen{
+        height: 21%;
+    }
+}

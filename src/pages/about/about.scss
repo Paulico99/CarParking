@@ -1,0 +1,121 @@
+page-about {
+
+}
+
+.card-background-page {
+
+    ion-card {
+      position: relative;
+      text-align: center;
+    }
+
+    .card-title {
+        position: absolute;
+        top: 80%;
+        font-size: 2.0em;
+        width: 110%;
+        font-weight: bold;
+        color: #fff;
+        opacity: 0.5;
+    }
+  
+    .card-subtitle {
+        font-size: 1.4em;
+        margin-top: -1%;
+        top: 25px;
+        width: 50%;
+        color: darkgreen;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        left: 4%;
+    }
+    .card-subtitle2 {
+        font-size: 1.4em;
+        margin-top: -1%;
+        top: 25px;
+        width: 50%;
+        color: darkred;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        left: 3%;
+    }
+    .flex{
+        display:flex;
+       
+    }
+    .cuadro{
+        position: absolute;
+        border: 3px solid greenyellow;
+        top: 64%;
+        width: 11%;
+        padding: 2%;
+        left: 77%;
+        border-radius: 50%;
+        background-color: greenyellow;
+        box-shadow: 0px 5px 10px darkgreen;
+    }
+    .cuadro1{
+        position: absolute;
+        border: 3px solid greenyellow;
+        top: 50%;
+        width: 11%;
+        padding: 2%;
+        left: 71%;
+        border-radius: 50%;
+        background-color: greenyellow;
+        -webkit-box-shadow: 0px 5px 10px darkgreen;
+        box-shadow: 0px 5px 10px darkgreen
+    }
+    .cuadro2{
+        position: absolute;
+        border: 3px solid greenyellow;
+        top: 51%;
+        width: 11%;
+        padding: 2%;
+        left: 17%;
+        border-radius: 50%;
+        background-color: greenyellow;
+        -webkit-box-shadow: 0px 5px 10px darkgreen;
+        box-shadow: 0px 5px 10px darkgreen;
+    }
+    .cuadro3{
+        position: absolute;
+        border: 3px solid red;
+        top: 65%;
+        width: 11%;
+        padding: 2%;
+        left: 31%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro4{
+        position: absolute;
+        border: 3px solid red;
+        top: 74%;
+        width: 11%;
+        padding: 2%;
+        left: 82%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro5{
+        position: absolute;
+        border: 3px solid red;
+        top: 52%;
+        width: 11%;
+        padding: 2%;
+        left: 34%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+  
+   
+} 
