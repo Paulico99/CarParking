@@ -11,17 +11,20 @@
       <ion-card style="box-shadow: 0px 0px 10px red;">
         <img src="../../assets/imgs/ESTACIONAMIENTO2.png" style="height: 50vh;"/>
         <div class="card-title">FIM - UAS</div>
-        <div class="cuadro"></div>
-        
-        <div class="cuadro1"></div>
+        <!--CAJON 0-->
+        <div class="cuadro" *ngIf="park0 == 'b'"></div> <!--CAJON ROJO-->
+        <div class="cuadro1" *ngIf="park0 == 'f'"></div> <!--CAJON VERDE-->
+        <!--CAJON 1-->
+        <div class="cuadro3" *ngIf="park1 == 'f'"></div> <!--CAJON VERDE-->
+        <div class="cuadro4" *ngIf="park1 == 'b'"></div> <!--CAJON ROJO-->
+
+        <!--IGNORAR CAJONES-->
         <div class="cuadro2"></div>
-        <div class="cuadro3"></div>
-        <div class="cuadro4"></div>
         <div class="cuadro5"></div>
-        
+                
       </ion-card>
       <div class="flex">
-        <div class="card-subtitle">Disponibles - <ion-badge item-end style="font-size: 14pt;background-color: darkgreen;">3</ion-badge></div>
-        <div class="card-subtitle2">Ocupados - <ion-badge item-end style="font-size: 14pt;background-color: darkred;">3</ion-badge></div>
+        <div class="card-subtitle"><small>Disponibles - </small><ion-badge item-end style="font-size: 12pt;background-color: darkgreen;">{{numFree}}</ion-badge></div>
+        <div class="card-subtitle2"><small>Ocupados - </small><ion-badge item-end style="font-size: 12pt;background-color: darkred;">{{numBusy}}</ion-badge></div>
       </div>
   </ion-content>
