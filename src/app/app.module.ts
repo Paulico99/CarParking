@@ -12,6 +12,24 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { EstacionamientoPage } from '../pages/estacionamientos/estacionamiento';
 
+//Server modules
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule, AngularFireDatabase } from 'angularfire2/database';
+
+//Services
+import { ParkingService } from '../services/parking.service';
+
+export const firebaseConfig = {
+  fire: {
+    apiKey: "AIzaSyA77zKGBvl7O81Wuh-u0Bhbax5HMhJXh3k",
+    authDomain: "parking-2464b.firebaseapp.com",
+    databaseURL: "https://parking-2464b.firebaseio.com",
+    projectId: "parking-2464b",
+    storageBucket: "parking-2464b.appspot.com",
+    messagingSenderId: "982360187100"
+  }
+}
+
 @NgModule({
   declarations: [
     MyApp,
@@ -23,7 +41,9 @@ import { EstacionamientoPage } from '../pages/estacionamientos/estacionamiento';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(firebaseConfig.fire),
+    AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -37,7 +57,9 @@ import { EstacionamientoPage } from '../pages/estacionamientos/estacionamiento';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AngularFireDatabase,
+    ParkingService
   ]
 })
 export class AppModule {}
