@@ -1,5 +1,9 @@
 page-about {
 }
+
+.scroll-content{
+    margin-bottom: 10px;
+}
 .card-background-page {
     ion-card {
       position: relative;
@@ -16,7 +20,7 @@ page-about {
     }
   
     .card-subtitle {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin-top: -1%;
         top: 25px;
         width: 50%;
@@ -27,7 +31,7 @@ page-about {
         left: 4%;
     }
     .card-subtitle2 {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin-top: -1%;
         top: 25px;
         width: 50%;
@@ -325,7 +329,7 @@ page-about {
         width: 31%;
         padding: 1.2%;
         left: 18%;
-        font-size: 9px;
+        font-size: 7px;
         color: white;
         border-radius: 24%;
         background-color: red;
