@@ -67,15 +67,15 @@ page-about {
     }
     .cuadro2{
         position: absolute;
-        border: 3px solid greenyellow;
-        top: 51%;
+        border: 3px solid red;
+        top: 53%;
         width: 11%;
-        padding: 2%;
+        padding: 1%;
         left: 17%;
         border-radius: 50%;
-        background-color: greenyellow;
-        -webkit-box-shadow: 0px 5px 10px darkgreen;
-        box-shadow: 0px 5px 10px darkgreen;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
     }
     .cuadro3{
         position: absolute;
@@ -101,20 +101,237 @@ page-about {
         -webkit-box-shadow: 0px 5px 10px darkred;
         box-shadow: 0px 5px 10px darkred;
     }
-    
+    /*IGNORAR CUADROS - ESTATICOS*/
     .cuadro5{
         position: absolute;
         border: 3px solid red;
-        top: 52%;
+        top: 53%;
         width: 11%;
-        padding: 2%;
+        padding: 1%;
         left: 34%;
         border-radius: 50%;
         background-color: red;
         -webkit-box-shadow: 0px 5px 10px darkred;
         box-shadow: 0px 5px 10px darkred;
     }
-  
+    .cuadro6{
+        position: absolute;
+        border: 3px solid red;
+        top: 86%;
+        width: 11%;
+        padding: 2%;
+        left: 85%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro7{
+        position: absolute;
+        border: 3px solid red;
+        top: 65%;
+        width: 11%;
+        padding: 2%;
+        left: 29%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro8{
+        position: absolute;
+        border: 3px solid red;
+        top: 58%;
+        width: 11%;
+        padding: 2%;
+        left: 13%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro9{
+        position: absolute;
+        border: 3px solid red;
+        top: 51%;
+        width: 11%;
+        padding: 2%;
+        left: 71%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro10{
+        position: absolute;
+        border: 3px solid red;
+        top: 57%;
+        width: 11%;
+        padding: 1.7%;
+        left: 74%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro11{
+        position: absolute;
+        border: 3px solid red;
+        top: 46%;
+        width: 11%;
+        padding: 1%;
+        left: 69%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro12{
+        position: absolute;
+        border: 3px solid red;
+        top: 40%;
+        width: 11%;
+        padding: 0.7%;
+        left: 37%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro13{
+        position: absolute;
+        border: 3px solid red;
+        top: 44%;
+        width: 11%;
+        padding: 0.4%;
+        left: 22%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro14{
+        position: absolute;
+        border: 3px solid red;
+        top: 46%;
+        width: 11%;
+        padding: 1%;
+        left: 69%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro15{
+        position: absolute;
+        border: 3px solid red;
+        top: 40%;
+        width: 11%;
+        padding: 0.7%;
+        left: 24%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro16{
+        position: absolute;
+        border: 3px solid red;
+        top: 49%;
+        width: 11%;
+        padding: 0.5%;
+        left: 36%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro17{
+        position: absolute;
+        border: 3px solid red;
+        top: 48%;
+        width: 11%;
+        padding: 1%;
+        left: 19%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro18{
+        position: absolute;
+        border: 3px solid red;
+        top: 65%;
+        width: 11%;
+        padding: 2%;
+        left: 10%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro19{
+        position: absolute;
+        border: 3px solid red;
+        top: 58%;
+        width: 11%;
+        padding: 2%;
+        left: 32%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro20{
+        position: absolute;
+        border: 3px solid red;
+        top: 44%;
+        width: 11%;
+        padding: 1%;
+        left: 36%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro21{
+        position: absolute;
+        border: 3px solid red;
+        top: 30%;
+        width: 11%;
+        padding: 1%;
+        left: 59%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro22{
+        position: absolute;
+        border: 3px solid red;
+        top: 37%;
+        width: 10%;
+        padding: 1%;
+        left: 63%;
+        border-radius: 50%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
+    .cuadro23{
+        position: absolute;
+        border: 3px solid red;
+        top: 25%;
+        width: 31%;
+        padding: 1.2%;
+        left: 18%;
+        font-size: 9px;
+        color: white;
+        border-radius: 24%;
+        background-color: red;
+        -webkit-box-shadow: 0px 5px 10px darkred;
+        box-shadow: 0px 5px 10px darkred;
+    }
    
 } 
 
